@@ -11,6 +11,7 @@ public class StandardError implements Serializable{
 	private String message;
 	private String path;
 	
+	@SuppressWarnings("unused")
 	private StandardError() {}
 
 	public StandardError(Long timestamp, Integer status, String error, String message, String path) {
